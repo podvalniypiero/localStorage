@@ -1,0 +1,45 @@
+#container{
+    display: flex;
+    margin-top: 200px;
+    flex-direction: column;
+    
+}
+textarea{
+    font-size: 30px;
+    padding: 40px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 200px;
+    height: 80px;
+    border-radius: 70px;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+
+body {
+    --text-color: #3c0f0f;
+    --bkg-color: rgb(242, 232, 198);
+  }
+  body.dark-theme {
+    --text-color: rgb(242, 232, 198);
+    --bkg-color: #3c0f0f;
+  }
+  
+
+  
+  body {
+    background: var(--bkg-color);
+  }
+  
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
